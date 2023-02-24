@@ -76,13 +76,6 @@ to move
   forward 1
 end
 
-to square
-  repeat 4 [
-    forward 10
-    right 90
-  ]
-end
-
 to eat
   let prey one-of fishes-here
   if prey != nobody [
